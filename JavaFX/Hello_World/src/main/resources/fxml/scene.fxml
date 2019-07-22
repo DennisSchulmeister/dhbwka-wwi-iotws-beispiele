@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox
+    id="rootPane" styleClass="root"
+    prefHeight="200" prefWidth="320"
+    spacing="20" alignment="CENTER"
+    xmlns:fx="http://javafx.com/fxml"
+    fx:controller="de.dhbw.javafx_hello_world.FXMLController"
+>
+    <children>
+        <Button text="Klick mich!" onAction="#onButtonClick" fx:id="button" />
+        <Label minHeight="16" minWidth="69" fx:id="label" />
+    </children>
+</VBox>

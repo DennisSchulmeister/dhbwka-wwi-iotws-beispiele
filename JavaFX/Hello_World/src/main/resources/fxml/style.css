@@ -1,0 +1,17 @@
+.root {
+    -fx-background-color: black;
+}
+
+.button {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+.label {
+    -fx-font-size: 20pt;
+    
+    -fx-text-fill: red;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.75) , 0,0,0,1 );
+}

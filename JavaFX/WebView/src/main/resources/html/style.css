@@ -1,0 +1,24 @@
+html {
+    background-image: url(bg.png);
+    font-family: Arial;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+body {
+    background: rgba(255,255,255,0.85);
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 1em;
+}
+
+h1, h2, h3 {
+    color: gold;
+    text-shadow: 1px 1px black,
+                 1px -1px black,
+                 -1px 1px black,
+                 -1px -1px black;
+}

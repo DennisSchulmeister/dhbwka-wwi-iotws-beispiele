@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Startseite</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="style.css"/>
+
+        <script>
+            /**
+             * Funktion, die aus dem WebViewController ausgerufen wird.
+             */
+            function showText(text) {
+                var div = document.getElementById("java_text");
+                div.innerHTML = text;
+            }
+        </script>
+    </head>
+    <body>
+        <h2>Herzlich Willkommen</h2>
+        <p>
+            Dies ist die Startseite unserer JavaFX/HTML-Anwendung.
+        </p>
+        <p>
+            <a href="second.html">Weiter zur zweiten Seite</a>
+        </p>
+
+        <button onclick="java.onButtonClicked()">Einmal Java und zurück</button>
+        <div id="java_text"></div>
+    </body>
+</html>
